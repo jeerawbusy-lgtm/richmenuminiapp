@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="HT9 Hotel digital guest journey, visual direction, and monthly content system by Jeerawat Boonme.">
+  <title>HT9 — Digital Guest Journey & Content System</title>
+  <style>
+    :root { --ink:#18221e; --paper:#f5f1e8; --line:rgba(24,34,30,.16); --sage:#8e9c83; --gold:#b99053; --soft:#e8e2d6; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; color:var(--ink); background:var(--paper); font-family:Arial, Helvetica, sans-serif; line-height:1.5; }
+    a { color:inherit; }
+    .wrap { width:min(1120px, calc(100% - 40px)); margin:auto; }
+    .top { padding:18px 0; border-bottom:1px solid var(--line); display:flex; justify-content:space-between; align-items:center; font-size:12px; letter-spacing:.12em; text-transform:uppercase; }
+    .brand { font-weight:700; }
+    .top a { text-decoration:none; border-bottom:1px solid currentColor; }
+    .hero { min-height:710px; color:#fff; position:relative; display:grid; align-items:end; overflow:hidden; background:#29362e; }
+    .hero:before { content:""; position:absolute; inset:0; background:linear-gradient(90deg,rgba(12,18,14,.82),rgba(12,18,14,.35) 58%,rgba(12,18,14,.62)), url('https://drive.google.com/thumbnail?id=1z6lmn_JTpctZn_JjwSw3UlrDGkqdwtXC&sz=w1800') center/cover; transform:scale(1.02); }
+    .hero-inner { position:relative; padding:80px 0 74px; max-width:790px; }
+    .eyebrow { font-size:12px; letter-spacing:.18em; text-transform:uppercase; font-weight:700; margin:0 0 18px; }
+    h1 { font-family:Georgia, 'Times New Roman', serif; font-size:clamp(48px,9vw,112px); line-height:.9; letter-spacing:-.055em; margin:0; font-weight:400; }
+    .lede { font-size:clamp(18px,2.2vw,25px); max-width:620px; margin:28px 0 0; }
+    .button { display:inline-block; background:#fff; color:var(--ink); text-decoration:none; padding:14px 19px; font-size:13px; font-weight:700; margin-top:30px; }
+    section { padding:90px 0; border-bottom:1px solid var(--line); }
+    .two { display:grid; grid-template-columns:1fr 1fr; gap:48px; }
+    h2 { font-family:Georgia, 'Times New Roman', serif; font-weight:400; font-size:clamp(36px,4vw,58px); line-height:1; letter-spacing:-.04em; margin:0; }
+    .intro { font-size:20px; margin:0; max-width:520px; }
+    .small { font-size:14px; color:#586158; }
+    .numbers { display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:var(--line); border:1px solid var(--line); margin-top:48px; }
+    .metric { background:var(--paper); padding:28px; min-height:152px; }
+    .metric b { display:block; font-family:Georgia,serif; font-weight:400; font-size:47px; line-height:1; color:var(--gold); }
+    .metric span { display:block; margin-top:12px; font-size:13px; }
+    .steps { display:grid; grid-template-columns:repeat(4,1fr); border-top:1px solid var(--line); margin-top:46px; }
+    .step { border-right:1px solid var(--line); padding:22px 22px 0 0; margin-right:22px; min-height:220px; }
+    .step:last-child { border:0; }
+    .num { color:var(--gold); font-size:13px; font-weight:700; letter-spacing:.12em; }
+    h3 { font-family:Georgia,serif; font-weight:400; font-size:27px; line-height:1.05; margin:18px 0 10px; }
+    .stage { background:var(--ink); color:#fff; }
+    .stage .small { color:#c9d0c7; }
+    .media { margin-top:44px; aspect-ratio:16/9; background:#101713; border:1px solid rgba(255,255,255,.2); }
+    .media iframe { border:0; width:100%; height:100%; }
+    .cards { display:grid; grid-template-columns:repeat(2,1fr); gap:16px; margin-top:44px; }
+    .card { background:#ece6da; padding:29px; min-height:225px; display:flex; flex-direction:column; }
+    .card h3 { margin-top:16px; }
+    .card a { margin-top:auto; color:#475343; font-size:13px; font-weight:700; text-decoration:none; border-bottom:1px solid currentColor; width:max-content; }
+    .caption { font-size:13px; margin-top:12px; color:#c9d0c7; }
+    .footer { padding:55px 0 70px; display:flex; justify-content:space-between; gap:30px; font-size:13px; }
+    @media (max-width:720px) { .hero { min-height:620px; } .two,.cards { grid-template-columns:1fr; } .numbers { grid-template-columns:1fr; } .steps { grid-template-columns:1fr 1fr; } .step { border-bottom:1px solid var(--line); padding-bottom:26px; } .footer { display:block; } }
+  </style>
+</head>
+<body>
+  <div class="wrap top"><span class="brand">VisualWav360° / HT9</span><a href="https://www.visualwav360.com" target="_blank" rel="noreferrer">Portfolio</a></div>
+  <main>
+    <section class="hero">
+      <div class="wrap hero-inner">
+        <p class="eyebrow">Hotel digital experience · 2026</p>
+        <h1>One Room.<br>One Story.</h1>
+        <p class="lede">A connected hotel guest journey across landing experience, home flow, short-form launch content and a monthly visual system.</p>
+        <a class="button" href="#project">Explore the project</a>
+      </div>
+    </section>
+
+    <section id="project"><div class="wrap">
+      <div class="two"><h2>From first impression to an ongoing reason to return.</h2><div><p class="intro">HT9 was conceived as a coherent digital world for a hotel: a guest meets the atmosphere through its landing experience, continues through its home journey, and encounters the same story again across social content.</p><p class="small">Role: creative direction, visual production, guest-journey thinking, launch-content planning and AI-assisted visual development.</p></div></div>
+      <div class="numbers"><div class="metric"><b>01</b><span>Digital guest journey<br>from landing to home</span></div><div class="metric"><b>30</b><span>Planned content moments<br>for a monthly system</span></div><div class="metric"><b>04</b><span>Connected visual outputs<br>in one project world</span></div></div>
+    </div></section>
+
+    <section><div class="wrap"><p class="eyebrow">The system</p><h2>One story, carried across every touchpoint.</h2><div class="steps">
+      <article class="step"><span class="num">01 / DISCOVER</span><h3>Landing</h3><p class="small">A cinematic first encounter that establishes place, pace and atmosphere.</p></article>
+      <article class="step"><span class="num">02 / EXPLORE</span><h3>Home</h3><p class="small">A clearer hotel world designed to help guests understand the experience and move through it naturally.</p></article>
+      <article class="step"><span class="num">03 / REMEMBER</span><h3>Social Launch</h3><p class="small">Short-form visual stories that turn a room, mood and detail into reasons to engage.</p></article>
+      <article class="step"><span class="num">04 / RETURN</span><h3>Monthly Content</h3><p class="small">A repeatable 30-day content system that sustains the launch after day one.</p></article>
+    </div></div></section>
+
+    <section class="stage"><div class="wrap"><p class="eyebrow">Landing hero</p><h2>A first frame with a point of view.</h2><p class="small">A client-facing preview of the hero motion direction.</p><div class="media"><iframe title="HT9 hero film" src="https://drive.google.com/file/d/1YeiPd_Gh2SSapTTDxwg4iktjz3e1cRhe/preview" allow="autoplay"></iframe></div><p class="caption">HT9 Hero Loop — web preview</p></div></section>
+
+    <section><div class="wrap"><p class="eyebrow">Project materials</p><h2>See the work in context.</h2><div class="cards">
+      <article class="card"><span class="num">01 / CLIENT JOURNEY</span><h3>Client Walkthrough</h3><p class="small">The presentation script that explains the project story and the digital guest flow.</p><a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1eUbXS2ttIB7TMP3HtKnRNHcLtXLUVXMK/view?usp=sharing">Open presentation</a></article>
+      <article class="card"><span class="num">02 / CONTENT LAUNCH</span><h3>One Room, One Story</h3><p class="small">A social-launch direction built to translate hotel atmosphere into repeatable content.</p><a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1xZb72Gqy4S2JRT50xxXMQMmXIXqvvZcx/view?usp=sharing">Open presentation</a></article>
+      <article class="card"><span class="num">03 / HERO ASSET</span><h3>Landing Hero</h3><p class="small">Motion-led landing visual and web-first cinematic introduction.</p><a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1YeiPd_Gh2SSapTTDxwg4iktjz3e1cRhe/view?usp=sharing">Open hero video</a></article>
+      <article class="card"><span class="num">04 / VISUAL SYSTEM</span><h3>Poster Series</h3><p class="small">Supporting visual assets that extend the hotel identity beyond the initial visit.</p><a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1mWZ4h6Ng-xOQUohYPxF9MeW3n8715GRx/view?usp=sharing">Open poster series</a></article>
+    </div></div></section>
+  </main>
+  <footer class="wrap footer"><div><b>HT9 — Digital Guest Journey & Content System</b><br><span class="small">Created by Jeerawat Boonme / VisualWav360°</span></div><div class="small">Open for creative direction, visual production and content assignments.</div></footer>
+</body>
+</html>
