@@ -2,7 +2,7 @@ name: Deploy HT9 presentation
 
 on:
   push:
-    branches: [work]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
